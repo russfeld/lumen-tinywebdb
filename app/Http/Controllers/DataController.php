@@ -31,7 +31,7 @@ class DataController extends Controller
       }
       $current = app('db')->table('data')->where('key', $tag)->limit(1)->value('value');
       if(is_null($current)){
-        app('db')->table('data')->insert(['key' => $key, 'value' => $value]);
+        app('db')->table('data')->insert(['key' => $tag, 'value' => $value]);
       }else{
         app('db')->table('data')->where('key', $tag)->update(['value' => $value]);
       }
