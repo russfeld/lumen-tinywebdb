@@ -17,7 +17,8 @@ class DataController extends Controller
     }
 
     public function index(){
-      	return response()->json("It works", 200);
+      	$results = app('db')->table('data')->select('key', 'value')->get();
+        return response()->json($results, 200);
     }
 
     public function store(Request $request){
