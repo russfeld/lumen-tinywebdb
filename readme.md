@@ -8,7 +8,7 @@
 
 <p>To use the service, simply enter <b>https://tinywebdb.russfeld.me/&lt;key&gt;</b> as the ServiceURL for your TinyWebDB component in your application. For example, if the key you received is "abc123", then you'll use <b>https://tinywebdb.russfeld.me/abc123</b> as your ServiceURL. See the image below for more details. Once you've used your application to store and receive data, you can visit that URL in a browser to see your data.</p>
 
-<img src="/images/tinywebdb.png">
+<img src="https://tinywebdb.russfeld.me/images/tinywebdb.png">
 
 <p>You can also download the <a href="/files/TestApp1.aia">Test Application<a> to test this service in <a href="http://appinventor.mit.edu/explore/">App Inventor</a><p>
 
