@@ -2,6 +2,8 @@
 
 <p>This website was designed to work with MIT's <a href="http://appinventor.mit.edu/explore/">App Inventor</a> tool to allow mobile applications to store data to the cloud</p>
 
+<p>For more information about using TinyWebDB in App Inventor visit <a href="http://www.appinventor.org/Databases2">Appinventor.org</a></p>
+
 <p>To use this website, first email Russ Feldhausen (russfeld AT ksu DOT edu |OR| russfeldh AT gmail DOT com) to request a unique key for your application or class. I recommend that you request a unique key for each application or group that will be using the website in to prevent data collisions. Basically, if two applications using the same key also use the same tag when storing their data, they will end up overwriting each other's data. It is very simple to create multiple keys, so don't feel limited to a single key</p>
 
 <p>Once you have your key, you can visit <b>https://tinywebdb.russfeld.me/&lt;key&gt;</b> to view the data stored under that key for debugging purposes. For example, if the key you received is "abc123", then you'll visit <b>https://tinywebdb.russfeld.me/abc123</b> to view your data. The data will be returned in a standard JSON format, which most browsers can read natively. I recommend using <a href="https://www.mozilla.org/en-US/firefox/">Mozilla Firefox</a> for this, as it parses the JSON into a much more readable format.</p>
